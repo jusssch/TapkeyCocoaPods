@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
             :ios => "12.0",
             :watchos => "6.2"
         }
-        cs.ios.dependency 'SocketRocket', '~> 0.6.0'
+        cs.ios.dependency 'SocketRocket', '= 0.7.1'
         cs.dependency 'JRE', '2.9.3.0-tk'
         cs.dependency 'GsonJ2ObjC', '2.8.6.9'
 
